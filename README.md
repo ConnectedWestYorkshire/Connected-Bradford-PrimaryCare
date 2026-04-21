@@ -11,6 +11,8 @@ As a standard all our research datasets are stored in a Flexible Data Model (FDM
 
 
 # Connected Bradford Primary Care
+> [!WARNING]  
+> THIS information is out of date and subject to review. (20/04/2026) 
 
 Contains the scripts and documentation for Primary Care
 It contains approximately 1 million patients. The dataset has been fully anonymised, but can link to other FDM's.
