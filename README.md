@@ -35,16 +35,8 @@ The data come from the TPP SystmOne clinical system used by Bradford GP practice
 Privacy and confidentiality. No identifiable information, such as names or addresses, is available to the Connected Yorkshire project, so patient confidentiality and privacy are protected. Date of birth can be seen in some tables, particularly demographic ones.
 
 # Dataset Summary
+<img width="3448" height="2268" alt="image" src="https://github.com/user-attachments/assets/3579fb1a-25f7-4111-887a-7298608d5b89" />
 
-
-Field	              Value
-Dataset Name	      Connected Bradford Primary Care
-Population	        875,641 individuals
-Coverage Period	    11 September 1999 – 22 October 2026
-Data Source	TPP     SystmOne
-Source Tables	      46
-Linkage Available	  Yes
-Build Date	        03 November 2026
 
 ### The source data tables are: 
 
