@@ -2,29 +2,49 @@
   <img align="left" alt="ConnectedBradford" width="55px" src="https://github.com/ShoreRob1/Images/blob/main/CB%20logo%201.png?raw=true" />
 </a>
 
-This is the Connected Bradford Primary Care GitHub page where you can find a summary of the dataset(s), data dictionaries and helpful code.
+This is the Connected West Yorkshire Primary Care GitHub page where you can find a summary of the dataset(s), data dictionaries and helpful code.
 
-# Flexible Data Model (FDM) 
+# Connected West Yorkshire Common Data Model
+All Connected West Yorkshire research datasets are stored using a common data structure designed to support data linkage and consistent analysis across datasets.
 
-As a standard all our research datasets are stored in a Flexible Data Model (FDM) this is loosely based on the OHDSI standards and includes a person and observation period table that are in OHDSI standards .Click [here](https://www.ohdsi.org/data-standardization/) for details of the OHDSI CDM Model. 
+The model is informed by the OHDSI Common Data Model and includes standard concepts such as Person and Observation Period.
+
+For more information about the OHDSI Common Data Model, click here..Click [here](https://www.ohdsi.org/data-standardization/) for details of the OHDSI CDM Model. 
 
 
 
-# Connected Bradford Primary Care
-> [!WARNING]  
-> THIS information is out of date and subject to review. (20/04/2026) 
+# Connected West Yorkshire Primary Care Data product
 
-Contains the scripts and documentation for Primary Care
-It contains approximately 1 million patients. The dataset has been fully anonymised, but can link to other FDM's.
+**Overview**
 
-Connected Bradford PrimaryCare build date: 2024-02-08	, contains data up to : 2025-04-08
+**What is Primary Care data?**
 
-The observation period for this data is: 1900-01-01	to	2025-04-08
+Primary care is the first point of contact with the NHS, mostly through GP practices. 
 
-# Tables
-The Primary Care data FDM is made up of 48 source table (summarised below and data dictionaries linked) from routinely collected data for 1,185,326  individuals and their routinely collected clinical data. 
+The Primary Care data product brings together: 
+•	Diagnoses
+•	Symptoms 
+•	Test results
+•	Medication
+•	Immunisations
+•	Referrals 
+•	Appointments
 
-The source tables are largely populated by fields with the tbl_ where there is a person and a start and end date, and cb_ where there is no identifiable person, these are typically lookups.
+The data come from the TPP SystmOne clinical system used by Bradford GP practices. They are anonymised and can be linked to other data products.
+
+Privacy and confidentiality. No identifiable information, such as names or addresses, is available to the Connected Yorkshire project, so patient confidentiality and privacy are protected. Date of birth can be seen in some tables, particularly demographic ones.
+
+# Dataset Summary
+
+
+Field	              Value
+Dataset Name	      Connected Bradford Primary Care
+Population	        875,641 individuals
+Coverage Period	    11 September 1999 – 22 October 2026
+Data Source	TPP     SystmOne
+Source Tables	      46
+Linkage Available	  Yes
+Build Date	        03 November 2026
 
 ### The source data tables are: 
 
